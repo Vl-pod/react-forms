@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.inputField {
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 5px;
+	border: 1px solid #ccc;
+	color: #333;
+}
+
+.outputField {
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	
+}
+
+.error {
+	color: red;
+	margin-top: 5px;
+}
